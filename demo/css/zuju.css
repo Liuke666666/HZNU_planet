@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #35364c;
+}
+.aui-header-item {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+.head {
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+  background-color: #35364c;
+}
+.title {
+  display: flex;
+  font-size: 25px;
+  line-height: 40px;
+  justify-content: center;
+  color: white;
+}
+.sort {
+  padding: 20px;
+  background-color: #292a3f;
+  border-radius: 10px;
+}
+.sort-title {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+.btns div {
+  width: 60px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #36428e, #292947);
+  color: white;
+  border-radius: 5px;
+}
+.activities {
+  padding: 179px 20px 60px 20px;
+  background-color: #35364c;
+}
+.zhuoyou,
+.xuexi,
+.yundong {
+  padding: 20px;
+  color: #d3d2d6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.zhuoyou {
+  background: linear-gradient(to bottom left, #763957, #2e0d34);
+}
+.xuexi {
+  background: linear-gradient(to bottom left, #512d54, #210b37);
+}
+.yundong {
+  background: linear-gradient(to bottom left, #2c386a, #0d0f34);
+}
+.a-box1 {
+  display: flex;
+  justify-content: space-around;
+}
+.a-box2 {
+  display: flex;
+  justify-content: space-between;
+}
+.a-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+.a-name,
+.a-people {
+  width: 80px;
+  font-size: 17px;
+  background-color: #261d2d;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.a-time {
+  margin-bottom: 10px;
+}
+.a-people img {
+  margin-right: 5px;
+}
+.a-jiaru {
+  width: 80px;
+  height: 30px;
+  background-color: #285c23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.bottom {
+  display: flex;
+  position: fixed;
+  bottom: -1px;
+  background-color: #292a3f;
+  height: 40px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottom img {
+  width: 30px;
+}
+.fabu {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #343e81;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  line-height: 40px;
+}

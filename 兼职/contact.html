@@ -1,0 +1,131 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="css/JFGrid.css" />
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+		<script type="text/javascript" src="js/JFCore.js"></script>
+		<script type="text/javascript" src="js/JFForms.js"></script>
+		<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+		<script type="text/javascript">
+			(function() {
+				JC.init({
+					domainKey: ''
+				});
+				})();
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<span>兼职</span>
+		</div>
+		<div class="h_right">
+			<!--start menu -->
+			<ul class="menu">
+				<li><a href="index.html">hotel</a></li> |
+				<li class="active"><a href="contact.html">contact</a></li>
+				<div class="clear"></div>
+			</ul>
+			<!-- start profile_details -->
+					
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+				<li class="active"><a href="index.html">hotel</a></li> 
+				<li><a href="contact.html">contact</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	</div>
+</div>
+</div>
+<!--start main -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="main">
+		<div class="contact">				
+				<div class="contact_left">
+					<div class="contact_info">
+			    	 	<h3>联系我们</h3>
+						 <div class="det_pic">
+							<img src="images/det_pic1.jpg" alt="" />
+					  </div>
+      				</div>
+      			<div class="company_address">
+				     	<h3>公司信息 :</h3>
+						<p>全球500强,</p>
+						<p>中国浙江省杭州市余杭区余杭塘路2318号，</p>
+					
+				   		<p>联系电话:(00) 222 666 444</p>
+				 	 	<p>邮箱: <a href="mailto:info@mycompany.com">info(at)mycompany.com</a></p>
+				   		<p>其他通讯软件: <a href="#">微信</a>, <a href="#">Twitter</a></p>
+				   </div>
+				</div>				
+				<div class="contact_right">
+				  <div class="contact-form">
+				  	<h3>个人信息</h3>
+					    <form method="post" action="contact-post.html">
+					    	<div>
+						    	<span><label>姓名</label></span>
+						    	<span><input name="userName" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>邮箱📮</label></span>
+						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						     	<span><label>联系电话☎️</label></span>
+						    	<span><input name="userPhone" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>备注</label></span>
+						    	<span><textarea name="userMsg"> </textarea></span>
+						    </div>
+						   <div>
+						   		<span><input type="submit" value="提交"></span>
+						  </div>
+					    </form>
+				    </div>
+  				</div>		
+  				<div class="clear"></div>		
+		  </div>
+	</div>
+</div>
+</div>		
+
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: white;
+}
+.aui-header-item {
+  color: black;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.title {
+  display: flex;
+  font-size: 25px;
+  line-height: 40px;
+  justify-content: center;
+}
+.notices {
+  padding: 20px;
+}
+.notice {
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: inset 0 0 7px 1px #797979;
+  margin-bottom: 20px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content-l {
+  width: 72%;
+}
+.content img {
+  max-width: 25%;
+}
+.content-l-b {
+  display: flex;
+  font-size: 12px;
+  color: #797979;
+}
+.content-l-b div {
+  margin-right: 8px;
+}
+.date {
+  font-size: 12px;
+  color: #797979;
+  margin-bottom: 15px;
+}
+.content-l-p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: pink;
+}
+.title {
+}
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 10px;
+}
+.title img {
+  position: absolute;
+  padding-top: 17px;
+  padding-left: 35px;
+}
+.fun {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fun a img {
+  width: 35px;
+  margin: -5px;
+}
+.search {
+  display: flex;
+  width: 76%;
+  height: 30px;
+  border-radius: 25px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3px 0 6px;
+}
+.search input {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 73%;
+}
+.search img {
+  width: 19px;
+  width: 18px;
+}
+.search button {
+  border: none;
+  background-color: rgb(255, 196, 0);
+  height: 24px;
+  width: 17%;
+  border-radius: 12px;
+  color: white;
+}
+.screen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.screen1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+.screen2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+/* .screen span {
+  background-color: rgba(241, 141, 228, 0.192);
+} */
+/* .screen img {
+  width: 10px;
+  height: 10px;
+  margin-top: 5px;
+  margin-left: -120px;
+  background-color: plum;
+} */
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.good {
+  width: 80%;
+  height: 220px;
+  background-color: rgba(255, 192, 203, 0.575);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.good img {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.heart {
+  text-align: right;
+  margin-top: -20px;
+}
+.good_name {
+  padding: 0 3px;
+}
+.new {
+  width: 80px;
+  border-radius: 4px;
+  text-align: center;
+  border: 0.5px solid orange;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.price {
+  margin-top: 10px;
+  color: rgb(231, 35, 35);
+  margin-left: 2px;
+}
